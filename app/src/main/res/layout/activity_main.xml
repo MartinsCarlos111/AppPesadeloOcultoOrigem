@@ -3,32 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/imgmenu"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/botaoJogabilidade"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="220dp"
-        android:text="@string/tituloJogabilidade"
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/tituloPesadeloOculto"
+        android:textColor="@color/white"
+        android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
 
-    <Button
-        android:id="@+id/botaoRegras"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="12dp"
-        android:text="@string/tituloRegras"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botaoHistoria"
-        app:layout_constraintVertical_bias="0.026" />
+        />
 
     <Button
         android:id="@+id/botaoSobre"
@@ -37,32 +29,64 @@
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="28dp"
         android:text="@string/tituloSobre"
+        android:backgroundTint="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botaoReferencia"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/botaoHistoria"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="24dp"
-        android:text="@string/tituloHistoria"
-        app:layout_constraintTop_toBottomOf="@+id/botaoJogabilidade"
-        tools:layout_editor_absoluteX="20dp" />
+        app:layout_constraintVertical_bias="0.047" />
 
     <Button
         android:id="@+id/botaoReferencia"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/red"
         android:text="@string/tituloReferencia"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botaoRegras" />
+
+    <Button
+        android:id="@+id/botaoRegras"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/tituloRegras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoHistoria"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <Button
+        android:id="@+id/botaoJogabilidade"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/red"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="172dp"
+        android:text="@string/tituloJogabilidade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botaoHistoria"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="@color/red"
+        android:layout_marginTop="20dp"
+        android:text="@string/tituloHistoria"
+        app:layout_constraintTop_toBottomOf="@+id/botaoJogabilidade"
+        tools:layout_editor_absoluteX="24dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

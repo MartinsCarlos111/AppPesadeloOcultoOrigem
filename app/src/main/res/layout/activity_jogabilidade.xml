@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/salacobaia"
     android:layout_height="match_parent"
     tools:context=".JogabilidadeActivity">
     <TextView
@@ -12,6 +13,8 @@
         android:layout_marginTop="32dp"
         android:text="@string/tituloOrigem"
         android:textSize="25dp"
+        android:textColor="@color/white"
+        android:justificationMode="inter_word"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,15 +28,19 @@
         app:layout_constraintEnd_toStartOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.206"
         app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/white"
         app:layout_constraintTop_toTopOf="@+id/textView"
         app:srcCompat="@drawable/baseline_arrow_back_24" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="375dp"
-        android:layout_height="77dp"
+        android:layout_width="357dp"
+        android:layout_height="144dp"
         android:layout_marginTop="56dp"
+        android:justificationMode="inter_word"
         android:text="@string/GamePlay"
+        android:textColor="@color/white"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,12 +59,12 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="109dp"
-        android:layout_height="26dp"
-        android:background="@color/gray"
+        android:layout_width="116dp"
+        android:layout_height="21dp"
+        android:background="@color/red"
         android:text="@string/LinkImagem"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="13dp"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />

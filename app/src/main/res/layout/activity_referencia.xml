@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/slanderman"
     tools:context=".ReferenciaActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -23,7 +24,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
-            app:layout_constraintVertical_bias="0.002"
+            app:layout_constraintVertical_bias="0.043"
             app:srcCompat="@drawable/img2" />
 
         <TextView
@@ -48,6 +49,7 @@
             app:layout_constraintEnd_toStartOf="@+id/textView"
             app:layout_constraintHorizontal_bias="0.206"
             app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/white"
             app:layout_constraintTop_toTopOf="@+id/textView"
             app:srcCompat="@drawable/baseline_arrow_back_24" />
 
@@ -57,10 +59,11 @@
             android:layout_height="124dp"
             android:justificationMode="inter_word"
             android:text="@string/Referencia"
+            android:textColor="@color/white"
             android:textSize="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.134"
+            app:layout_constraintVertical_bias="0.028"
             tools:layout_editor_absoluteX="27dp" />
 
         <Button
@@ -68,13 +71,13 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginHorizontal="20dp"
-            android:text="Referência"
+            android:backgroundTint="@color/red"
+            android:text="@string/tituloReferencia"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2"
-            app:layout_constraintVertical_bias="0.467" />
+            app:layout_constraintVertical_bias="0.653" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
@@ -84,6 +87,7 @@
         android:layout_marginTop="32dp"
         android:text="@string/tituloPesadeloOculto"
         android:textSize="25dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

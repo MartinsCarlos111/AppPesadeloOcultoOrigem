@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/pesadelo"
     android:layout_height="match_parent"
     tools:context=".SobreActivity">
 
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="@string/tituloPesadeloOculto"
+        android:textColor="@color/white"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -20,13 +22,14 @@
 
     <ImageView
         android:id="@+id/backButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="29dp"
+        android:layout_height="30dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toStartOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.206"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/baseline_arrow_back_24" />
 
     <Button
@@ -36,7 +39,8 @@
         android:textSize="20dp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginBottom="112dp"
-        android:text="Séde da empresa"
+        android:text="@string/LinkSedeEmpresa"
+        android:backgroundTint="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -48,6 +52,7 @@
         android:text="@string/textoSobre"
         android:textSize="15dp"
         android:justificationMode="inter_word"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/buttonMap"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

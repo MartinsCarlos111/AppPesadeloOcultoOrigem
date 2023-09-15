@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/telasangue"
     android:layout_height="match_parent"
     tools:context=".RegrasActivity">
     <TextView
@@ -12,6 +13,7 @@
         android:layout_marginTop="32dp"
         android:text="@string/tituloOrigem"
         android:textSize="25dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,28 +21,32 @@
 
     <ImageView
         android:id="@+id/backButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="28dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toStartOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/baseline_arrow_back_24" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="363dp"
-        android:layout_height="196dp"
+        android:layout_width="365dp"
+        android:layout_height="224dp"
         android:justificationMode="inter_word"
         android:text="@string/RegrasLista"
+        android:textColor="@color/white"
         android:textSize="16dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.733" />
+        app:layout_constraintVertical_bias="0.798" />
 
     <TextView
         android:id="@+id/textView9"
@@ -49,6 +55,8 @@
         android:justificationMode="inter_word"
         android:text="@string/RegrasPesadeloOrigem"
         android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
