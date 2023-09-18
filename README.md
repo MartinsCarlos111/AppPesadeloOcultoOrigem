@@ -78,4 +78,49 @@ Como referencia usamos o jogo Slender: The Eight Pages, que tem bastantes aspect
 ![image](https://github.com/pedroribeiro07/PesadeloOcultoAOrigem/assets/106094573/d89285cb-ebd9-4bcc-a3ef-ce2a09576eac)
 
 
+# Explicação Aplicativo
 
+## Funcionalidades Gerais
+
+Todos os botões possuem uma ação de hardware, que faz o celular vibrar assim que o botão é acionado. Todas as telas possuem um botão que retorna ao Menu.  
+
+## Menu
+
+O menu dispõe de 5 botões (Jogabilidade, História, Regras, Referência, Sobre), que levam as respectivas telas que serão explicadas em sequência. Segue print da tela Menu.
+![menu](https://github.com/MartinsCarlos111/AppPesadeloOcultoOrigem/assets/101645719/ca34d0cf-59ef-4899-b28b-b52c74bcbabd)
+
+
+## Jogabilidade
+
+A tela jogabilidade tem um botão personalizado que leva ao YouTube, em uma GamePlay do jogo. 
+![Jogabilidade](https://github.com/MartinsCarlos111/AppPesadeloOcultoOrigem/assets/101645719/203949ed-2e9d-4d4b-a2bf-1a9317803e11)
+
+![youtubeGamePlay](https://github.com/MartinsCarlos111/AppPesadeloOcultoOrigem/assets/101645719/09503c73-2de6-4d4b-a74a-156878c92430)
+
+
+## História 
+
+Possui uma breve história do jogo Pesadelo Oculto, que faz parte do nosso "Pesadelo Oculto - Origem".  
+
+![historia](https://github.com/MartinsCarlos111/AppPesadeloOcultoOrigem/assets/101645719/eb5d9bf6-3fee-432e-8f56-92154aa210f5)
+
+## Regras 
+
+Contém as regras do jogo de forma detalhada, com uma pequena introdução do enredo do jogo. 
+
+![Regras](https://github.com/MartinsCarlos111/AppPesadeloOcultoOrigem/assets/101645719/2e434049-7ecd-44d1-8e5b-ff04ecb70eb1)
+
+## Referência
+
+Aqui sitamos o jogo que usamos de referência para a criação do nosso, por aspectos similares, como iluminação, perseguição, entre outros. Nessa tela tem um botão que redireciona o usuário para um site no google que detalha o jogo.   
+![Referencia](https://github.com/MartinsCarlos111/AppPesadeloOcultoOrigem/assets/101645719/0bb083da-cadc-4739-ac14-99d843993655)
+
+![BotaoReferencia](https://github.com/MartinsCarlos111/AppPesadeloOcultoOrigem/assets/101645719/e280fe5d-0f81-45f8-9944-6e0e7b894ae2)
+
+## Sobre
+
+Em 'Sobre' falamos sobre a empresa, o nosso diferencial, além de um botão que redireciona o usuário para o maps com a localização da séde da empresa.
+
+![Empresa](https://github.com/MartinsCarlos111/AppPesadeloOcultoOrigem/assets/101645719/4c5d094a-b5da-46fb-bd69-46237168c1d6)
+
+![LugarMaps](https://github.com/MartinsCarlos111/AppPesadeloOcultoOrigem/assets/101645719/51c5f6c3-4e46-4ff7-8aa3-a3ff958f0e9a)
