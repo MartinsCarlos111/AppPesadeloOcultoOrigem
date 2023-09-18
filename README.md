@@ -87,6 +87,8 @@ Todos os botões possuem uma ação de hardware, que faz o celular vibrar assim 
 ## Menu
 
 O menu dispõe de 5 botões (Jogabilidade, História, Regras, Referência, Sobre), que levam as respectivas telas que serão explicadas em sequência. Segue print da tela Menu.
+
+
 ![menu](https://github.com/MartinsCarlos111/AppPesadeloOcultoOrigem/assets/101645719/ca34d0cf-59ef-4899-b28b-b52c74bcbabd)
 
 
