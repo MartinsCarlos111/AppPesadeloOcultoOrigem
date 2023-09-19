@@ -25,7 +25,7 @@ public class JogabilidadeActivity extends AppCompatActivity {
         textView9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent implicitIntent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=P2p9rivrJOw"));
+                Intent implicitIntent1 = new Intent(Intent.ACTION_VIEW, Uri.parse(""));
                 startActivity(implicitIntent1);
             }
         });

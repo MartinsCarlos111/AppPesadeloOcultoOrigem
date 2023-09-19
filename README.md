@@ -7,8 +7,8 @@
 
 ## Autores
 
-- [@MartinsCarlos111](https://www.github.com/MartinsCarlos111)
-- [@pedroribeiro07](https://www.github.com/pedroribeiro07)
+- [@Carlos Eduardo Gomes Martins](https://www.github.com/MartinsCarlos111)
+- [@Pedro Guilherme Ribeiro ](https://www.github.com/pedroribeiro07)
 
 ## Documentação
 
