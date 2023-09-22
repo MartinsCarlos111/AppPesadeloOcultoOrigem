@@ -135,6 +135,9 @@ Em 'Sobre' falamos sobre a empresa, o nosso diferencial, além de um botão que 
 ## Android
 
 [Apresentação Aplicativo](https://youtu.be/zVUugfqlVHI)
+
+
+
 [Link Game Play](https://youtu.be/dFw6_KsmT9Y) Observação: O link é o mesmo que está no Aplicativo, pórem no emulador o You Tube ta com bug. 
 
 
