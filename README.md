@@ -132,4 +132,4 @@ Em 'Sobre' falamos sobre a empresa, o nosso diferencial, além de um botão que 
 
 # Android
 
-![Apresentação Aplicativo](https://youtu.be/zVUugfqlVHI)
+[Apresentação Aplicativo](https://youtu.be/zVUugfqlVHI)
